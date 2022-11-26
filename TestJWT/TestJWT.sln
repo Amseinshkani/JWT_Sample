@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestJWT", "TestJWT.csproj", "{0B12F317-5D4D-4A9B-8ECD-04585FF9991D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "..\Core\Core.csproj", "{113EF272-27BC-4FA5-B371-E967481F9977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "..\Infrastructure\Infrastructure.csproj", "{6198F0A8-39B5-4D1C-BA6C-178D30D2C625}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B12F317-5D4D-4A9B-8ECD-04585FF9991D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B12F317-5D4D-4A9B-8ECD-04585FF9991D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B12F317-5D4D-4A9B-8ECD-04585FF9991D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B12F317-5D4D-4A9B-8ECD-04585FF9991D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113EF272-27BC-4FA5-B371-E967481F9977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113EF272-27BC-4FA5-B371-E967481F9977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113EF272-27BC-4FA5-B371-E967481F9977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113EF272-27BC-4FA5-B371-E967481F9977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6198F0A8-39B5-4D1C-BA6C-178D30D2C625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6198F0A8-39B5-4D1C-BA6C-178D30D2C625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6198F0A8-39B5-4D1C-BA6C-178D30D2C625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6198F0A8-39B5-4D1C-BA6C-178D30D2C625}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D19C642B-4369-4349-AFF0-35CAD1995687}
+	EndGlobalSection
+EndGlobal
